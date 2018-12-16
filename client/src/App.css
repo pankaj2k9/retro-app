@@ -1,0 +1,351 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbar.bg-light{
+  background-color: rgba(255, 255, 255, .5)!important;
+  z-index: 999999999;
+  position: absolute;
+  width:100%;
+  padding-right:20px;
+}
+.navbar.bg-light .nav-item{   
+   margin-right: 19px;
+ }
+
+.home-first-row{
+  z-index:1;
+  top:0px;
+  padding:0px;
+}
+
+.home-first-row .first-col{
+  margin-top:150px;
+  padding-left:10%;
+
+}
+.create-retro-first-row .first-col{
+  margin-top:150px;
+}
+
+.home-first-row .first-col h1{
+  font-size: 40px;
+  color: #32373C;
+  letter-spacing: 0.2px;
+  line-height: 42px;
+
+}
+.home-first-row .first-col .btn{
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  border:none;
+  margin-right:15px;
+  margin-top:10px;
+}
+
+.home-first-row .first-col .btn.button-two{
+  background: #F88440;
+}
+
+.footer{
+  background-color:#32373D;
+  padding:20px 0px;
+}
+
+.footer .media-body{
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #DADADA;
+  line-height: 22px;
+}
+
+.footer .footerLogo{
+  width:70px;
+}
+
+.footer a {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #9098A2;
+  line-height: 16px;
+}
+.footer h6 {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #9098A2;
+  line-height: 16px;
+}
+.footer-last-col{
+  display:flex;
+}
+.tablink-create-retro-group{
+  text-align:center;
+  background-color: rgba(255, 255, 255, .5)!important;
+  position: relative;
+  z-index: 999999999;
+  top:100px;
+}
+.tablink-create-retro{
+  background:transparent;
+  border:none;
+  margin-right: 100px;
+  color:#8C8C8C;
+  cursor:pointer;
+  font-size:13px;
+}
+
+.tablink-create-retro .circle-icon{
+  display:none;
+}
+
+.active-tablink-create-retro{
+  color:#3B75FA;
+  padding-bottom:10px;
+  font-weight:500;
+  border-bottom:4px solid #3B75FA;
+}
+
+.active-tablink-create-retro .circle-icon{
+  display: inline-block;
+  margin-right:10px;
+}
+button:focus{
+   outline:none;
+}
+
+.image-holder-step-one{
+  background-image: url(./assets/redShape.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  position: relative;
+  top: -38px;
+}
+.image-holder-step-two{
+  background-image: url(./assets/blueShape.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: cover;
+  position: relative;
+  top: -38px;
+}
+
+.create-retro-form label{
+  color: #143A62;
+  font-weight: bold;
+  font-size: 18px;
+}
+.form-control{
+    border-radius: 0;
+    border: 0px solid white;
+    background-color: #F3F3F3;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+.custom-input .form-control{
+    border-radius: 0;
+    border: 0px solid white;
+    background-color: #E4EAED;
+    padding: 26px 20px;
+    font-size: 18px;
+    margin:10px 0px;
+}
+
+.select-dropdown > div{
+    background-color: #F3F3F3;
+    border:none;
+    border-radius:0px;
+}
+.hint-text{
+  color: #3B75FA!important;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.hint-text-tip{
+   justify-content: flex-start;
+   font-size: 11px;
+}
+
+.hint-text-tip .circle-icon{
+   margin-right:5px;
+}
+.hint-text-gray{
+   font-size:11px;
+   margin-top:0px;
+}
+
+.editButton{
+    color: #3B75FA!important;
+    display: inline-flex;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid #3b75fa;
+    padding: 3px 10px;
+    border-radius: 14px;
+}
+
+.clearButton{
+    color: #F88440!important;
+    display: inline-flex;
+    font-size: 13px;
+    font-weight: 500;
+    border: 1px solid #F88440;
+    padding: 3px 10px;
+    border-radius: 9px;
+}
+
+.custom-input label{
+  display:flex;
+  justify-content: space-between;
+}
+.after-editMode{
+  display:flex;
+  justify-content: space-between;
+}
+.save-btn{
+    margin-right: 4px!important;
+    font-size: 15px!important;
+    border-radius: 0;
+    padding: 0px;
+    height: 51px;
+}
+.create-retro-right-col{
+   margin-top:250px;
+   padding-left:10%;
+   padding-right:3%;
+   width:100%;
+}
+.create-retro-right-col div{
+   font-size: 11px;
+   font-weight: bold;
+}
+.create-retro-right-col div div.category-box{
+    background-color: #F3E2D8;
+    padding: 10px 10px 400px;
+}
+.next-btn{
+    background-color: rgba(114, 137, 161, .9)!important;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 50px 0px 100px;
+}
+.done-btn{
+    background-color: rgba(248, 132, 64, .9)!important;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 50px 0px 100px;
+}
+
+.joininput{
+
+}
+.joininput .btn{
+    background-color: #F88440;
+    margin-top: 0px!important;
+    border: none;
+    border-radius: 0px;
+    height: 38px;
+    font-size: 16px!important;
+}
+
+.joininput .form-control{
+  
+}
+.invite-section label{
+  margin-top: 30px;
+}
+.sub-title{
+  color:#1B3F67;
+}
+.date-input label{
+  margin-bottom:0px;
+  font-size: 15px;
+}
+.date-picker .form-control{
+  font-size:15px;
+}
+.mid-date-time{
+  align-items: center;
+  display: flex;
+}
+.week-select-dropdown{
+  font-size:13px;
+}
+.inviteinput .btn{
+  background-color: #F88440;
+  margin-top: 0px!important;
+  border: none;
+  border-radius: 0px;
+  height: 38px;
+  font-size: 16px!important;
+}
+.inviteinput .form-control{
+  background-color: #ffffff;
+}
+.inviteinput label{
+  color: #ffffff;
+}
+.invite-right-section{
+  justify-content: center;
+}
+.invite-right-section form{
+  width:78%;
+}
+
+.invitation-list-section{
+  padding-left:10%;
+  padding-right:3%;
+  justify-content: center;
+}
+.invitation-list{
+  width:78%;
+}
+.invitation-list h4{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+}
+.borderless thead, .borderless td, .borderless th, table.borderless thead th {
+    border: none;
+}
+.borderless th {
+  color:#69CE52;
+}
+.borderless td {
+  color:#ffffff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
